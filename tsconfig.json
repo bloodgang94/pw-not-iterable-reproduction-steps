@@ -1,0 +1,11 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["./src/*"],
+			"@playwright/*": ["./src/playwright/*"]
+		},
+		"strictNullChecks": true
+	}
+}
+
